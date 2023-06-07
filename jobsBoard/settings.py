@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'jobsApp'
+    #my apps
+    'jobsApp',
+
+    # 3rd party apps
+    'django_filters',
+    'bootstrap5'
 ]
 
 MIDDLEWARE = [
