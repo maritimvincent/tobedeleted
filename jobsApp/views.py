@@ -43,7 +43,10 @@ def job_detail(request, slug):
         form = ApplyForm()
 
 
-    context = {'job' : job_detail , 'form' : form}
+    context = {
+         'job' : job_detail ,
+           'form' : form
+           }
     return render(request,'jobdetail.html', context)
 
 # @login_required
