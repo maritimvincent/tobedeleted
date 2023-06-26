@@ -142,7 +142,9 @@ STORAGES = {
     },
 }
 # STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-
+CSRF_TRUSTED_ORIGINS  = ["https://tobedeleted-production.up.railway.app"]
+CSRF_ALLOWED_ORIGINS   = ["https://tobedeleted-production.up.railway.app"]
+CORS_ORIGINS_WHITELIST  = ["https://tobedeleted-production.up.railway.app"]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
